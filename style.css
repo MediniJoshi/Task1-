@@ -1,0 +1,563 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #fff;
+    padding: 10px 20px;
+    /* text-align: center; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+/* Header Section */
+header {
+    background-image: url('https://example.com/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header .logo {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    color: #fff;
+}
+header{
+    background-image: url("https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg?w=996&t=st=1729087742~exp=1729088342~hmac=886dd51e2d018a6a605f6a1352b7ce9427b5d55a2acdd75d8a95a6328f384717");
+
+}
+
+header .logo h1 {
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about em {
+    font-size: 18px;
+    color: #777;
+}
+
+.about p {
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 1.6;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.profile-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Profile Left Section (Image and Name) */
+.profile-left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.profile-name {
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-name i {
+    margin-right: 10px;
+}
+
+/* Profile Right Section (Welcome Text) */
+.profile-right {
+    width: 65%;
+}
+
+.welcome-text h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.welcome-text p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Skills Section */
+.skills-section {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    color: #555;
+}
+
+/* Font Awesome for user icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+ 
+
+.skills-section {
+    width: 50%;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.skill-name {
+    flex: 1;
+    font-size: 18px;
+}
+
+.progress-bar {
+    background-color: #f0f0f0;
+    width: 50%;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #6c757d;
+    border-radius: 5px;
+}
+
+.percentage {
+    font-size: 16px;
+}
+
+.f{
+    background-color: #6c757d;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 14px;
+}
+
+ 
+
+.portfolio-header {
+    position: relative;
+    height: 60vh;
+    background-image: url('https://img.freepik.com/free-photo/black-white-image-sad-woman_23-2151338362.jpg?t=st=1729088027~exp=1729091627~hmac=17cc4db61b24b8f210a975bb6163e7d17bf306f27d0ed44d325d5d8678f18989&w=996'); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.portfolio-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-header h1 {
+    font-size: 48px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.work-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.work-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.work-section p {
+    font-size: 18px;
+    color: #888;
+    line-height: 1.5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+    justify-items: center;
+     align-items: center;
+     margin-bottom: 20px;
+    
+}
+
+
+.image-item img {
+    width: 20%;
+    height: auto;
+    max-width: 300px;
+}
+
+.load-more {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.load-more:hover {
+    background-color: #ddd;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://img.freepik.com/free-photo/top-view-chat-bubbles-with-telephone-receiver-copy-space_23-2148796078.jpg?t=st=1729089231~exp=1729092831~hmac=f802ad9f783112fe87a5ebc239fdcabb24d7edd4e9730f8bd4b9e2f69d4cdd2c&w=996'); /* Replace with your image URL */
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Content Section */
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    padding: 20px;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: center;
+    padding-right: 30px;
+}
+
+.contact-info img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.contact-info .info {
+    margin-top: 20px;
+}
+
+.contact-info .info p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.contact-form {
+    flex: 1;
+    max-width: 400px;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #333;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.footer {
+    background-color: #5e5e5e;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+}
+
+.to-top {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.to-top i {
+    margin-right: 5px;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .w3-bar, h1, button {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .fa-anchor, .fa-coffee {
+    font-size: 200px;
+  }
+  
+  /* Parallax Effect */
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bgimg-1 {
+    background-image: url('https://www.w3schools.com/w3css/img_parallax1.jpg');
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url('https://www.w3schools.com/w3css/img_parallax2.jpg');
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url('https://www.w3schools.com/w3css/img_parallax3.jpg');
+    min-height: 400px;
+  }
+  
+  .w3-wide {
+    letter-spacing: 10px;
+  }
+  
+  .w3-hover-opacity {
+    cursor: pointer;
+  }
+
+
+
+
+
+
